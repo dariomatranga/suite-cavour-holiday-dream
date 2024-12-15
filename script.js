@@ -11,3 +11,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         alert('Per favore, compila tutti i campi!');
     }
 });
+javascript
+function bookRoom(roomName) {
+    alert(`Hai prenotato: ${roomName}`);
+}
